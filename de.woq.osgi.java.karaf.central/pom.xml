@@ -15,26 +15,26 @@
   ~  limitations under the License.
   -->
 
-<project 
-  xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>de.woq.osgi.java</groupId>
-    <artifactId>de.woq.osgi.java.karaf.parent</artifactId>
-    <version>1.0-beta-2-SNAPSHOT</version>
-    <relativePath>../de.woq.osgi.java.karaf.parent</relativePath>
-  </parent>
+    <parent>
+        <groupId>de.woq.osgi.java</groupId>
+        <artifactId>de.woq.osgi.java.karaf.parent</artifactId>
+        <version>1.0-beta-2-SNAPSHOT</version>
+        <relativePath>../de.woq.osgi.java.karaf.parent</relativePath>
+    </parent>
 
-  <properties>
-    <woq.branding.groupId>${project.groupId}</woq.branding.groupId>
-    <woq.branding.artifactId>de.woq.osgi.java.karaf.branding</woq.branding.artifactId>
-    <woq.branding.version>${project.version}</woq.branding.version>
-  </properties>
+    <properties>
+        <woq.branding.groupId>${project.groupId}</woq.branding.groupId>
+        <woq.branding.artifactId>de.woq.osgi.java.karaf.branding</woq.branding.artifactId>
+        <woq.branding.version>${project.version}</woq.branding.version>
+    </properties>
 
-  <artifactId>de.woq.osgi.java.karaf.central</artifactId>
+    <artifactId>de.woq.osgi.java.karaf.central</artifactId>
 
 </project>
