@@ -35,6 +35,9 @@
 
     <fileSet>
       <directory>target/linux/apache-karaf-${karaf.version}</directory>
+        <excludes>
+            <exclude>lib/endorsed/org.apache.servicemix.specs.activation-api-1.1-2.2.0.jar</exclude>
+        </excludes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
 
